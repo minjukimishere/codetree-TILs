@@ -12,5 +12,8 @@ public class Main {
         if(a<b){
             System.out.print(b-a);
         }
+        if(a==b){
+            System.out.print(0);
+        }
     }
 }
