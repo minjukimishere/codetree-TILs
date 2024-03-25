@@ -14,7 +14,7 @@ public class Main {
         }else if(n>=60){
             System.out.print("D");
         }else{
-            System.out.print("E");
+            System.out.print("F");
         }
     }
 }
