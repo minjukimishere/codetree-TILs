@@ -15,7 +15,7 @@ public class Main {
         }
         else if(am==bm&&ae>be){
             System.out.print('A');
-        }else if(am==bm&&am<bm){
+        }else if(am==bm&&ae<be){
             System.out.print('B');
         }
     }
