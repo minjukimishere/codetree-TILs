@@ -8,7 +8,7 @@ public class Main {
         char m=sc.next().charAt(0);
         int wa=sc.nextInt();
         char w=sc.next().charAt(0);
-        if((ma>=19&&m=='M')&&(wa>=19&&w=='M')){
+        if((ma>=19&&m=='M')||(wa>=19&&w=='M')){
             System.out.print(1);
         }else{
             System.out.print(0);
