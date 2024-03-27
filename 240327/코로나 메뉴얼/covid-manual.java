@@ -10,14 +10,11 @@ public class Main {
         int a2=sc.nextInt();
         char y3 =sc.next().charAt(0);
         int a3=sc.nextInt();
-        if(((y1=='Y'&&a1>=37)&&(y2=='Y'&&a2>=37))||(y3=='Y'&&a3>=37))
-        {
+        if((y1=='Y'&&a1>=37)&&(y2=='Y'&&a2>=37)){
             System.out.print('E');
-        }else if(((y2=='Y'&&a2>=37)&&(y3=='Y'&&a3>=37))||(y1=='Y'&&a1>=37))
-        {
+        }else if((y2=='Y'&&a2>=37)&&(y3=='Y'&&a3>=37)){
             System.out.print('E');
-        }else if(((y3=='Y'&&a3>=37)&&(y1=='Y'&&a1>=37))||(y2=='Y'&&a2>=37))
-        {
+        }else if((y1=='Y'&&a1>=37)&&(y3=='Y'&&a3>=37)){
             System.out.print('E');
         }else{
             System.out.print('N');
