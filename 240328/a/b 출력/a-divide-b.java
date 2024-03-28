@@ -19,7 +19,9 @@ public class Main {
             c=(a*10)/b;
             for(int i=0;i<20;i++){
                 System.out.print(c);
+                d=(a*10)%b;
                 c=(d*10)/b;
+
             }
         }
     }
