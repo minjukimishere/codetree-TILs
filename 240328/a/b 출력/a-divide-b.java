@@ -17,6 +17,7 @@ public class Main {
         }else{ //  3/5
             System.out.print(0+".");
             c=(a*10)/b;
+            d=(a*10)%b;
             for(int i=0;i<20;i++){
                 System.out.print(c);
                 d=(a*10)%b;
@@ -28,5 +29,6 @@ public class Main {
 }
 
 //14/3=4...2    3/5->0.      3/7->0. 
+
 //20/3=6...2    30/5=6...0   30/7=4...2
 //20/3=6....2   0/5=0-> 0?   20/7=2...6
