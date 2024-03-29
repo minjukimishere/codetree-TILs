@@ -12,6 +12,7 @@ public class Main {
             System.out.print(c+".");
             for(int i=0;i<20;i++){
                 c=(d*10)/b;
+                d=(d*10)%b;
                 System.out.print(c);
             }
         }else{ //  31/48
@@ -21,7 +22,7 @@ public class Main {
             for(int i=0;i<20;i++){
                 System.out.print(c); //6
                 c=(d*10)/b; //220/48 =8
-                d=(d*19)%b;
+                d=(d*10)%b;
 
             }
         }
