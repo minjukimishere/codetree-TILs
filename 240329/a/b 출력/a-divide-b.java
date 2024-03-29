@@ -21,6 +21,7 @@ public class Main {
             for(int i=0;i<20;i++){
                 System.out.print(c); //6
                 c=(d*10)/b; //220/48 =8
+                d=(d*19)%b;
 
             }
         }
