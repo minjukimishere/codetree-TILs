@@ -6,13 +6,14 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int m=n;
-        int cnt=0;
-        for(int i=1; i<=n; i++){
-            m/=(int)i;
-            cnt++;
-            if(m<1){
+        int i;
+        for(i=1; i<=n; i++){
+            System.out.print(m+" "+i+" "+n+"\n");
+            m=m/(int)i;
+            System.out.print(m+" "+i+" "+n+"\n");
+            if((int)m==1){
                 break;
             }    
-        }System.out.print(cnt);
+        }System.out.print(i);
     }
 }
