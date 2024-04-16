@@ -9,7 +9,7 @@ public class Main {
         int i;
         for(i=1; i<=n; i++){
             m=m/(int)i;
-            if((int)m==1){
+            if(m<=1){
                 break;
             }    
         }System.out.print(i);
