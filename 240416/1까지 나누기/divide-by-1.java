@@ -8,9 +8,7 @@ public class Main {
         int m=n;
         int i;
         for(i=1; i<=n; i++){
-            System.out.print(m+" "+i+" "+n+"\n");
             m=m/(int)i;
-            System.out.print(m+" "+i+" "+n+"\n");
             if((int)m==1){
                 break;
             }    
