@@ -6,10 +6,11 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int cnt=0;
-        for(int i=1; i<=5000; i++){
-            n/=(int)i;
+        int m;
+        for(int i=1; i<=n; i++){
+            m=n/i;
             cnt++;
-            if((n/i)<1){
+            if(m<1){
                 cnt++;
                 break;
             }
