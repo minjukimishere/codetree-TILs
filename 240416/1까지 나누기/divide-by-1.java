@@ -6,12 +6,12 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int i=1;        
-        int cnt=0;
+        int cnt=1;
         while((n/i)>=1){
         n/=(int)i;
         cnt++;
         i++;
-        }System.out.print(cnt+1);
+        }System.out.print(cnt);
     }
 }
 
