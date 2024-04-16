@@ -5,14 +5,15 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int i=1;        
-        int cnt=1;
-        while((n/i)>=1){
-        n/=(int)i;
-        cnt++;
-        i++;
+        int cnt=0;
+        for(int i=1; (n/i)>=1; i++){
+            n/=i;
+            cnt++;
+            if((n/i)<1){
+                cnt++;
+                break;
+            }
         }System.out.print(cnt);
+
     }
 }
-
-//
