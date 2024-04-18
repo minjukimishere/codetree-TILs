@@ -6,14 +6,14 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int j=2;
-        int cnt=1;
+        int cnt=0;
 
         while(true){
-            j*=2;
             cnt++;
             if(j==n){
                 break;
             }
+            j*=2;
         }
         System.out.print(cnt);
 
