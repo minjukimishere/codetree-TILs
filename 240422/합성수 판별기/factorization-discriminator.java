@@ -16,7 +16,7 @@ public class Main {
         }
         if(j=true){
             System.out.print("C");
-        }else{
+        }else if(j=false){
             System.out.print("N");
         }
     }
