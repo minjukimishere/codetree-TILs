@@ -14,9 +14,9 @@ public class Main {
                 continue;
             }
         }
-        if(j=true){
+        if(j==true){
             System.out.print("C");
-        }else if(j=false){
+        }else if(j==false){
             System.out.print("N");
         }
     }
